@@ -1,0 +1,144 @@
+body {
+
+      background-color: #1d2a00;
+}
+
+/*this is the navigation bar start*/
+.sidebar-nav {
+  position: fixed;
+  top: 20px; /* space from top */
+  left: 0;
+  width: 10%;
+  background-color: #383838;
+  padding: 20px;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+  border-radius: 0 10px 10px 0;
+  z-index: 1000;
+}
+
+.sidebar-nav nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav nav ul li {
+  margin: 2px 0;
+}
+
+.sidebar-nav nav ul li a {
+  text-decoration: none;
+  color: #d3b575;
+  font-weight: bold;
+  display: block;
+  padding: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-nav nav ul li a:hover {
+  background-color: #eaeaea;
+}
+/*this is the navigation bar end*/
+
+/*this is the language selector start*/
+.sidebar-lang {
+  position: fixed;
+  top: 20px; /* space from top */
+  right: 0;
+  width: 5%;
+  background-color: #383838;
+  padding: 20px;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px 0 0 10px;
+  z-index: 1000;
+}
+
+.sidebar-lang nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-lang nav ul li {
+  margin: 2px 0;
+}
+
+.sidebar-lang nav ul li a {
+  text-decoration: none;
+  color: #d3b575;
+  font-weight: bold;
+  display: block;
+  padding: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-lang nav ul li a:hover {
+  background-color: #eaeaea;
+}
+/*this is the language selector bar end*/
+
+/* Main content area */
+.main-content {
+  margin-left: 13%;      /* space for sidebar */
+  margin-right: 8%;
+  margin-top: 20px;        /* align to top */
+  padding: 24px;
+  background: #1d2a00;
+  border-radius: 16px;     /* rounded corners */
+  box-shadow: 0 2px 12px}
+
+.main-content img {
+  width:75%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+  /* Main content area */
+
+  /* The Map */
+.main-content iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ /* The Map */
+/*Contacts*/
+.contacts-row {
+  display: flex;
+  gap: 24px; /* space between the two divs */
+  justify-content: center; /* center them horizontally */
+}
+
+.contacts-row .main-content {
+  flex: 1;
+  margin: 0;
+}
+/*Contacts*/
+/*Index Language Selection*/
+.language-row {
+  display: flex;
+  gap: 16px; /* space between buttons */
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+}
+
+.language-row button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.language-row img {
+  width: 200px;
+  height: auto;
+  display: block;
+}
+/*Index Language Selection*/
+
+  h1,h2,h3 {
+text-align: center;
+  color: #d3b357;
+
+  }
